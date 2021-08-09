@@ -1,0 +1,5 @@
+1-Creat React project : 
+npx create-react-app or npx create-react-app <project-name>
+2-Start a project :
+ npm start //Tip: This command will run the script named “start” in the package.json.
+ 3-
