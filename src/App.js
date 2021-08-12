@@ -4,13 +4,13 @@ import { useState } from 'react';
 import Test from './Test';
 import Button from 'react-bootstrap/Button';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Form } from 'react-bootstrap';
+import { Container, Form } from 'react-bootstrap';
 function App() {
  
   return (
     <div className="App">
       <Form>
- 
+      <Container fluid='sm' md='auto'>
     <Form.Label>Email address</Form.Label>
     <Form.Control type="email" placeholder="Enter email" />
     <Form.Text className="text-muted">
@@ -28,6 +28,7 @@ function App() {
   <Button variant="primary" type="submit">
     Submit
   </Button>
+  </Container>
 </Form>
     </div>
   );
